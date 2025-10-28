@@ -1,6 +1,9 @@
 
 import { createClient } from "@supabase/supabase-js";
 
+// Força a página a sempre buscar dados frescos
+export const revalidate = 0;
+export const dynamic = 'force-dynamic';
 
 export default async function Home() {
   
