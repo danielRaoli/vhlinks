@@ -12,7 +12,7 @@ export default async function Home() {
   return (
     <div className="flex w-full h-screen bg-linear-to-b from-[#e651b9] to-[#c41dad] items-center justify-center  font-sans dark:bg-black">
       <div className="flex justify-center items-center gap-8 flex-col w-full">
-        <h1 className="text-white text-4xl font-bold">😈Você tá só a um passo de acessar o meu VIP😈</h1>
+        <h1 className="text-white text-center text-4xl font-bold">😈Você tá só a um passo de acessar o meu VIP😈</h1>
         <a 
           rel="noopener noreferrer"
           href={data?.[0]?.link || ''} 
